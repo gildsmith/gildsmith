@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use Gildsmith\HubApi\Facades\Gildsmith;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Gildsmith::web();
