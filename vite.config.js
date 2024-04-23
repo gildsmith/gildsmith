@@ -7,7 +7,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
     plugins: [
         laravel([
-            'resources/css/app.css',
+            'resources/css/gildsmith.css',
             'node_modules/@gildsmith/cart-client/src/app.js',
             'node_modules/@gildsmith/profile-client/src/app.js',
             'node_modules/@gildsmith/dashboard-client/src/app.js',
@@ -28,6 +28,12 @@ export default defineConfig({
     server: {
         fs: {
             strict: false,
+        },
+    },
+    resolve: {
+        alias: {
+            '@composer': __dirname + '/vendor',
+            '@npm': __dirname + '/node_modules',
         },
     },
     esbuild: {
