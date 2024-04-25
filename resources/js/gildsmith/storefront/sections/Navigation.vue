@@ -1,10 +1,6 @@
-<script setup>
-import Logo from '../widgets/Logo.vue'
-</script>
-
 <template>
     <div class="navigationContainer">
-        <Logo/>
+        <div class="navigationLogo">STOREFRONT</div>
         <nav class="navigation">
             <span class="url">Home</span>
             <span class="url">Products</span>
@@ -18,6 +14,10 @@ import Logo from '../widgets/Logo.vue'
 <style scoped>
 .navigationContainer {
     @apply flex items-center justify-between m-auto p-4 gap-8 border-b;
+}
+
+.navigationLogo {
+    @apply font-semibold;
 }
 
 .navigation {
