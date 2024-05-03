@@ -9,7 +9,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.3",
-        "gildsmith/frontend-api": "dev-master",
         "gildsmith/hub-api": "dev-master",
         "gildsmith/profile-api": "dev-master",
         "laravel/framework": "^11.0",
