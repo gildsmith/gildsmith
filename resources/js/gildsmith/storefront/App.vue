@@ -1,6 +1,12 @@
 <script setup>
 import Navigation from "./sections/Navigation.vue";
 import Footer from './sections/Footer.vue'
+
+/* ---------------------------------------------------------------------------
+ * Custom Application Component
+ * ---------------------------------------------------------------------------
+ *
+ */
 </script>
 
 <template>
@@ -9,7 +15,7 @@ import Footer from './sections/Footer.vue'
             <Navigation/>
         </div>
         <div class="routerViewContainer">
-            <router-view/>
+            <RouterView/>
         </div>
         <div class="footerContainer">
             <Footer/>

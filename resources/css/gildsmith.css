@@ -20,11 +20,11 @@ body {
 }
 
 .button {
-    @apply text-sm text-center text-white bg-slate-950 rounded px-4 py-2 flex items-center justify-center gap-2 justify-self-start;
+    @apply text-sm text-center text-white bg-slate-950 rounded px-4 py-2 flex items-center justify-center gap-2 justify-self-start border-2 border-slate-950;
 }
 
 .button.button-secondary {
-
+    @apply text-slate-950 bg-transparent border-2 border-slate-950;
 }
 
 .button.button-ghost {

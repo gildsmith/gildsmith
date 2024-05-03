@@ -1,3 +1,3 @@
 <template>
-    This is your index page!!
+    This is your index page!
 </template>

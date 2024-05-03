@@ -1,13 +1,21 @@
+<script setup>
+import {ProfileButton} from '@gildsmith/profile-client'
+import {CartButton} from '@gildsmith/cart-client'
+</script>
+
 <template>
     <div class="navigationContainer">
-        <div class="navigationLogo">STOREFRONT</div>
+        <RouterLink :to="{name: 'storefront.index'}" class="navigationLogo">STOREFRONT</RouterLink>
         <nav class="navigation">
-            <span class="url">Home</span>
-            <span class="url">Products</span>
-            <span class="url">Rooms</span>
-            <span class="url">Sale</span>
-            <span class="url">New</span>
+            <a class="url" href="#">Home</a>
+            <a class="url" href="#">Products</a>
+            <a class="url" href="#">Rooms</a>
+            <a class="url" href="#">Sale</a>
+            <a class="url" href="#">New</a>
         </nav>
+        <div class="flex-1"/>
+        <CartButton/>
+        <ProfileButton/>
     </div>
 </template>
 
@@ -25,6 +33,6 @@
 }
 
 .url {
-    @apply px-4 py-2;
+    @apply px-4 py-2 font-medium;
 }
 </style>
