@@ -49,8 +49,7 @@ out easy-peasy.
 
 We welcome contributions from everyone! If you have suggestions for how we could
 improve, or if you've found an issue and would like to report a bug, please contribute
-to the main repository at [`gildsmith/gildsmith`](https://github.com/gildsmith/gildsmith)
-rather than this one. This helps us keep our efforts focused and organized.
+to the main repository at [`gildsmith/gildsmith`](https://github.com/gildsmith/gildsmith).
 
 ### 🧪 Alpha Stage Disclaimer
 
