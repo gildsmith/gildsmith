@@ -8,6 +8,7 @@
     "devDependencies": {
         "@gildsmith/cart-client": "^1.0.0",
         "@gildsmith/dashboard-client": "^1.0.0",
+        "@gildsmith/frontend-client": "^1.0.0",
         "@gildsmith/profile-client": "^1.0.0",
         "@gildsmith/storefront-client": "^1.0.0",
         "@vitejs/plugin-vue": "^5.0.4",
@@ -23,8 +24,9 @@
     ],
     "dependencies": {
         "@tabler/icons-vue": "^3.2.0",
+        "pinia": "^2.1.7",
         "vue": "^3.4.23",
-        "vue-router": "^4.3.2",
-        "pinia": "^2.1.7"
+        "vue-i18n": "^9.13.1",
+        "vue-router": "^4.3.2"
     }
 }

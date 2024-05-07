@@ -34,6 +34,7 @@ export default defineConfig({
         alias: {
             '@composer': __dirname + '/vendor',
             '@npm': __dirname + '/node_modules',
+            '@': __dirname + '/resources/js',
         },
     },
     esbuild: {

@@ -583,7 +583,7 @@
             "dist": {
                 "type": "path",
                 "url": "../packages/composer/gildsmith/hub-api",
-                "reference": "bbb93d115424f2332b229f0811ca4816866c0e5b"
+                "reference": "f1fdc6dfcba6f90cb569b0fbe18ca985ae9b7792"
             },
             "require": {
                 "lorisleiva/laravel-actions": "^2.8",
@@ -628,7 +628,7 @@
             "dist": {
                 "type": "path",
                 "url": "../packages/composer/gildsmith/profile-api",
-                "reference": "afe79c342f67a75290f34cc503848c439c2c9477"
+                "reference": "b05f7b6141c6cf0032288213f9f3a4e1a1a51a32"
             },
             "require": {
                 "gildsmith/hub-api": "dev-master",
@@ -8452,5 +8452,5 @@
         "php": "^8.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }

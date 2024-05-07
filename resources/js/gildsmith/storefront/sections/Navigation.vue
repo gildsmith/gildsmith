@@ -1,19 +1,23 @@
 <script setup>
-import {ProfileButton} from '@gildsmith/profile-client'
-import {CartButton} from '@gildsmith/cart-client'
+import NotificationBar from '../components/NotificationBar.vue'
+import LanguageSelect from '@gildsmith/frontend-client/src/widgets/LanguageSelect.vue'
+import CartButton from '@gildsmith/cart-client/src/widgets/CartButton.vue'
+import ProfileButton from '@gildsmith/profile-client/src/widgets/ProfileButton.vue'
 </script>
 
 <template>
+    <NotificationBar/>
     <div class="navigationContainer">
-        <RouterLink :to="{name: 'storefront.index'}" class="navigationLogo">STOREFRONT</RouterLink>
+        <a href="/" class="navigationLogo">GILDSMITH</a>
         <nav class="navigation">
-            <a class="url" href="#">Home</a>
-            <a class="url" href="#">Products</a>
-            <a class="url" href="#">Rooms</a>
-            <a class="url" href="#">Sale</a>
-            <a class="url" href="#">New</a>
+            <a class="url" href="/#">Home</a>
+            <a class="url" href="/#">Products</a>
+            <a class="url" href="/#">Rooms</a>
+            <a class="url" href="/#">Sale</a>
+            <a class="url" href="/#">New</a>
         </nav>
         <div class="flex-1"/>
+        <LanguageSelect/>
         <CartButton/>
         <ProfileButton/>
     </div>

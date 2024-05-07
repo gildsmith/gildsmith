@@ -1,23 +1,23 @@
 <script setup>
-import Navigation from "./sections/Navigation.vue";
+import Navigation from './sections/Navigation.vue'
 import Footer from './sections/Footer.vue'
 
 /* ---------------------------------------------------------------------------
  * Custom Application Component
  * ---------------------------------------------------------------------------
- *
+ * TODO
  */
 </script>
 
 <template>
     <div class="appContainer">
-        <div class="navigationContainer">
+        <div class="appNavigationContainer">
             <Navigation/>
         </div>
         <div class="routerViewContainer">
             <RouterView/>
         </div>
-        <div class="footerContainer">
+        <div class="appFooterContainer">
             <Footer/>
         </div>
     </div>
@@ -25,10 +25,10 @@ import Footer from './sections/Footer.vue'
 
 <style scoped>
 .appContainer {
-    @apply container m-auto min-h-full flex flex-col;
+    @apply m-auto min-h-full flex flex-col;
 }
 
 .routerViewContainer {
-    @apply flex-1 p-4;
+    @apply flex-1;
 }
 </style>

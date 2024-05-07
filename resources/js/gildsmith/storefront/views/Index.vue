@@ -1,3 +1,14 @@
+<script setup>
+import SaleBar from '../components/SaleBar.vue'
+</script>
+
 <template>
-    This is your index page!
+    <SaleBar/>
+    <div>
+        This is your index page!
+    </div>
 </template>
+
+<style scoped>
+
+</style>
