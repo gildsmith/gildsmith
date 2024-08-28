@@ -1,23 +1,13 @@
 <?php
 
 use Gildsmith\HubApi\Facades\Gildsmith;
-use Gildsmith\HubApi\Router\Web\WebApplication;
+use Gildsmith\HubApi\Router\Web\AppBuilder;
 
-Gildsmith::registerFallbackWebApplication(new WebApplication(
-    identifier: 'storefront',
-    route: '',
-    template: 'gildsmith.template',
-    params: ['app_path' => 'node_modules/@gildsmith/storefront-client/src/app.js'],
-));
+Gildsmith::app()
+    ->param('app_path', 'node_modules/@gildsmith/storefront-client/src/app.js');
 
-
-Gildsmith::registerWebApplication(new WebApplication(
-    identifier: 'dashboard',
-    route: 'dashboard',
-    template: 'gildsmith.template',
-    params: [
-        'app_path' => 'node_modules/@gildsmith/dashboard-client/src/app.js',
-        'meta' => ['robots' => 'noindex, nofollow'],
-    ],
-    restricted: ['admin']
-));
+Gildsmith::app('dashboard')
+    ->route('dashboard')
+    ->param('app_path', 'node_modules/@gildsmith/dashboard-client/src/app.js')
+    ->param('meta', ['robots' => 'noindex, nofollow'])
+    ->restricted('admin');

@@ -7,13 +7,14 @@ export default {
         './resources/**/*.{blade.php,js,vue}',
         './node_modules/@gildsmith/**/*.{blade.php,js,vue}',
     ],
+    darkMode: 'selector',
     theme: {
         extend: {
             fontFamily: {
                 'sans': ['"Figtree"', ...defaultTheme.fontFamily.sans],
             },
             fontSize: {
-                base: ['18px', '150%'],
+                base: ['16px', '150%'],
             },
             boxShadow: {
                 'flat': 'rgba(50, 50, 93, 0.05) 0px 13px 25px -10px, rgba(0, 0, 0, 0.05) 0px 7px 15px -7px, rgba(0, 0, 0, 0.05) 0px 0px 7px -5px',

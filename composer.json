@@ -12,6 +12,7 @@
         "gildsmith/hub-api": "dev-master",
         "gildsmith/profile-api": "dev-master",
         "laravel/framework": "^11.0",
+        "laravel/horizon": "^5.24",
         "laravel/reverb": "@beta",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",

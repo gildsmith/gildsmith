@@ -111,11 +111,8 @@ return [
 
         'mongodb' => [
             'driver' => 'mongodb',
-            'host' => env('MONGODB_HOST', 'localhost'),
-            'port' => env('MONGODB_PORT', '27017'),
-            'database' => env('MONGODB_DATABASE', 'laravel'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', ''),
+            'dsn' => env('DB_URI', 'mongodb://'.env('DB_USERNAME').':'.env('DB_PASSWORD').'@'.env('DB_HOST').':'.env('DB_PORT').'/'.env('DB_DATABASE')),
+            'database' => env('DB_DATABASE', 'laravel'),
         ],
 
     ],

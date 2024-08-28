@@ -40,4 +40,12 @@ export default defineConfig({
     esbuild: {
         legalComments: 'none',
     },
+    build: {
+        chunkSizeWarningLimit: 2048,
+        rollupOptions: {
+            output: {
+                manualChunks: null, // TODO
+            },
+        },
+    },
 })

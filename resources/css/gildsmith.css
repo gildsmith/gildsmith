@@ -15,29 +15,7 @@ body {
 }
 
 .input {
-    @apply font-sans px-3 py-1 rounded border-2;
-    @apply hover:border-slate-950;
-}
-
-.button {
-    @apply text-sm text-center text-white bg-slate-950 rounded px-4 py-2 flex items-center justify-center gap-2 justify-self-start border-2 border-slate-950;
-}
-
-.button.button-secondary {
-    @apply text-slate-950 bg-transparent border-2 border-slate-950;
-}
-
-.button.button-ghost {
-    @apply bg-transparent text-slate-950;
-    @apply hover:bg-slate-50;
-}
-
-h1 {
-    @apply text-2xl font-semibold;
-}
-
-h2 {
-    @apply text-xl font-medium;
+    /*@apply font-sans px-3 py-1 rounded border-2;*/
 }
 
 th {
