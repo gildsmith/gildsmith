@@ -6,9 +6,9 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@gildsmith/product-client": "^1.0.0",
         "@gildsmith/cart-client": "^1.0.0",
         "@gildsmith/dashboard-client": "^1.0.0",
-        "@gildsmith/frontend-client": "^1.0.0",
         "@gildsmith/profile-client": "^1.0.0",
         "@gildsmith/storefront-client": "^1.0.0",
         "@vitejs/plugin-vue": "^5.0.4",
@@ -25,7 +25,6 @@
         "../packages/npm/*/*"
     ],
     "dependencies": {
-        "@gildsmith/product-client": "^1.0.0",
         "@tabler/icons-vue": "^3.2.0",
         "pinia": "^2.1.7",
         "vue": "^3.4.23",
