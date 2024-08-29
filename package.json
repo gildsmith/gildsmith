@@ -6,11 +6,11 @@
         "build": "vite build"
     },
     "devDependencies": {
-        "@gildsmith/product-client": "^1.0.0",
-        "@gildsmith/cart-client": "^1.0.0",
-        "@gildsmith/dashboard-client": "^1.0.0",
-        "@gildsmith/profile-client": "^1.0.0",
-        "@gildsmith/storefront-client": "^1.0.0",
+        "@gildsmith/product-web": "^1.0.0",
+        "@gildsmith/cart-web": "^1.0.0",
+        "@gildsmith/dashboard-web": "^1.0.0",
+        "@gildsmith/profile-web": "^1.0.0",
+        "@gildsmith/storefront-web": "^1.0.0",
         "@vitejs/plugin-vue": "^5.0.4",
         "autoprefixer": "^10.4.19",
         "axios": "^1.6.4",

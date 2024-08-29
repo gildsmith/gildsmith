@@ -1,5 +1,5 @@
 <?php
 
-use Gildsmith\HubApi\Facades\Gildsmith;
+use Gildsmith\CoreApi\Facades\Gildsmith;
 
 Gildsmith::api();

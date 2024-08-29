@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "501590c376492047e0d16e565da1391f",
+    "content-hash": "07dabbfb3e255bc8b4914b0f4e143ab9",
     "packages": [
         {
             "name": "brick/math",
@@ -755,12 +755,12 @@
             "time": "2023-10-12T05:21:21+00:00"
         },
         {
-            "name": "gildsmith/hub-api",
+            "name": "gildsmith/core-api",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../packages/composer/gildsmith/hub-api",
-                "reference": "ba1781b397f3208779e83a1ac87b6963c9d40a1f"
+                "url": "../packages/composer/gildsmith/core-api",
+                "reference": "0e7cedb9fdc869386e55fcac98494c27581113ca"
             },
             "require": {
                 "laravel/pennant": "^1.11",
@@ -777,16 +777,16 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Gildsmith\\HubApi\\Providers\\HubServiceProvider"
+                        "Gildsmith\\CoreApi\\Providers\\CoreServiceProvider"
                     ],
                     "aliases": {
-                        "Gildsmith": "Gildsmith\\HubApi\\Facades\\Gildsmith"
+                        "Gildsmith": "Gildsmith\\CoreApi\\Facades\\Gildsmith"
                     }
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Gildsmith\\HubApi\\": "src/"
+                    "Gildsmith\\CoreApi\\": "src/"
                 }
             },
             "license": [
@@ -811,7 +811,7 @@
                 "reference": "cebdae7814ffce23e35be12acc4cf08fba1016f2"
             },
             "require": {
-                "gildsmith/hub-api": "dev-master",
+                "gildsmith/core-api": "dev-master",
                 "laravel/pennant": "^1.11",
                 "laravel/sanctum": "^4.0",
                 "lorisleiva/laravel-actions": "^2.8",
@@ -10026,7 +10026,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "gildsmith/hub-api": 20,
+        "gildsmith/core-api": 20,
         "gildsmith/profile-api": 20,
         "laravel/reverb": 10
     },

@@ -1,15 +1,16 @@
 {
-    "name": "laravel/laravel",
+    "name": "gildsmith/gildsmith",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
     "keywords": [
         "laravel",
-        "framework"
+        "gildsmith",
+        "framework",
+        "ecommerce"
     ],
     "license": "MIT",
     "require": {
         "php": "^8.3",
-        "gildsmith/hub-api": "dev-master",
+        "gildsmith/core-api": "dev-master",
         "gildsmith/profile-api": "dev-master",
         "laravel/framework": "^11.0",
         "laravel/horizon": "^5.24",

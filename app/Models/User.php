@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Gildsmith\HubApi\Models\User as GildsmithUser;
+use Gildsmith\CoreApi\Models\User as GildsmithUser;
 
 class User extends GildsmithUser
 {

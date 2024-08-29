@@ -8,10 +8,10 @@ export default defineConfig({
     plugins: [
         laravel([
             'resources/css/gildsmith.css',
-            'node_modules/@gildsmith/cart-client/src/app.js',
-            'node_modules/@gildsmith/profile-client/src/app.js',
-            'node_modules/@gildsmith/dashboard-client/src/app.js',
-            'node_modules/@gildsmith/storefront-client/src/app.js',
+            'node_modules/@gildsmith/cart-web/src/app.js',
+            'node_modules/@gildsmith/profile-web/src/app.js',
+            'node_modules/@gildsmith/dashboard-web/src/app.js',
+            'node_modules/@gildsmith/storefront-web/src/app.js',
         ]),
         vue({
             template: {
