@@ -1,8 +1,8 @@
 <script setup>
 import NotificationBar from '../components/NotificationBar.vue'
-import LanguageSelect from '@gildsmith/storefront-client/src/widgets/LanguageSelect.vue'
-import CartButton from '@gildsmith/cart-client/src/widgets/CartButton.vue'
-import ProfileButton from '@gildsmith/profile-client/src/widgets/ProfileButton.vue'
+import LanguageSelect from '@gildsmith/storefront-web/src/widgets/LanguageSelect.vue'
+import CartButton from '@gildsmith/cart-web/src/widgets/CartButton.vue'
+import ProfileButton from '@gildsmith/profile-web/src/widgets/ProfileButton.vue'
 </script>
 
 <template>

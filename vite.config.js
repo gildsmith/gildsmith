@@ -7,16 +7,20 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
     plugins: [
         laravel([
-            'resources/css/gildsmith.css',
-            'node_modules/@gildsmith/cart-web/src/app.js',
             'node_modules/@gildsmith/profile-web/src/app.js',
+            'node_modules/@gildsmith/profile-web/resources/app.css',
+
             'node_modules/@gildsmith/dashboard-web/src/app.js',
+            'node_modules/@gildsmith/dashboard-web/resources/app.css',
+
             'node_modules/@gildsmith/storefront-web/src/app.js',
+            'node_modules/@gildsmith/storefront-web/resources/app.css',
         ]),
         vue({
             template: {
                 transformAssetUrls: {
-                    includeAbsolute: false, base: null,
+                    includeAbsolute: false,
+                    base: null,
                 },
             },
         }),

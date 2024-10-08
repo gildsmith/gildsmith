@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3bae69196a206046970267abefe41fcd",
+    "content-hash": "52e91d983a9eab762d1e3c6a7a0d668f",
     "packages": [
         {
             "name": "brick/math",
@@ -760,7 +760,7 @@
             "dist": {
                 "type": "path",
                 "url": "../packages/composer/gildsmith/core-api",
-                "reference": "0e7cedb9fdc869386e55fcac98494c27581113ca"
+                "reference": "17a5ab0c6b598033cf3c83deada6e07cec0ea517"
             },
             "require": {
                 "laravel/pennant": "^1.11",
