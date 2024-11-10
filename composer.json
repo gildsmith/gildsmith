@@ -75,12 +75,5 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../packages/composer/*/*",
-            "symlink": true
-        }
-    ]
+    "prefer-stable": true
 }
